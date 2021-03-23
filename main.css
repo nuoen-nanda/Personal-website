@@ -1,0 +1,105 @@
+html {
+  max-width: 100%;
+  margin: auto;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 20;
+  overflow: hidden;
+  top: 0;
+  background-color: HSL(8,40%,30%);
+  color: white;
+}
+
+h1 {
+  line-height: 60px;
+  margin-left: 30px;
+  width: 45%;     /* can keep navagation bar at right */
+}
+
+h2 {
+  font-size: 30px;
+}
+
+nav {
+  width: 50%;
+
+}
+
+header ul {
+  display: flex;
+  line-height: 80px;
+  justify-content: flex-end;
+}
+
+header ul li {
+  list-style: inherit;
+  margin-right: 50px;
+}
+
+.img-before {
+  
+}
+.img-after {
+  display: none;
+
+}
+
+.img-before:hover {
+  display:none;
+}
+
+.img-before:hover + .img-after {
+  display: block;
+}
+
+
+
+
+/* body */
+body {
+  position: relative;
+  top: 90px;
+}
+
+.content p{
+  max-width: 60%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+img {
+  float: right;
+  margin-right: 30px;
+}
+.skills {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.skills ul{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+.skills ul li{
+  margin: 0 25px 0 25px;
+}
+
+/* contact */
+.contact {
+  background-color: HSL(8,40%,40%);
+  color: white;
+  padding: 5px;
+ margin-left: 20px;
+
+}
